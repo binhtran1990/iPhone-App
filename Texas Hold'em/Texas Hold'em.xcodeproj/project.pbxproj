@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		193594531556D6CD00F5DD4E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 193594521556D6CD00F5DD4E /* UIKit.framework */; };
+		193594551556D6CD00F5DD4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 193594541556D6CD00F5DD4E /* Foundation.framework */; };
+		193594571556D6CD00F5DD4E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 193594561556D6CD00F5DD4E /* CoreGraphics.framework */; };
+		193594591556D6CD00F5DD4E /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 193594581556D6CD00F5DD4E /* GLKit.framework */; };
+		1935945B1556D6CD00F5DD4E /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1935945A1556D6CD00F5DD4E /* OpenGLES.framework */; };
+		193594611556D6CD00F5DD4E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1935945F1556D6CD00F5DD4E /* InfoPlist.strings */; };
+		193594631556D6CD00F5DD4E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 193594621556D6CD00F5DD4E /* main.m */; };
+		193594671556D6CD00F5DD4E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 193594661556D6CD00F5DD4E /* AppDelegate.m */; };
+		1935946A1556D6CD00F5DD4E /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 193594681556D6CD00F5DD4E /* MainStoryboard_iPhone.storyboard */; };
+		1935946D1556D6CD00F5DD4E /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1935946B1556D6CD00F5DD4E /* MainStoryboard_iPad.storyboard */; };
+		1935946F1556D6CD00F5DD4E /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 1935946E1556D6CD00F5DD4E /* Shader.fsh */; };
+		193594711556D6CD00F5DD4E /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 193594701556D6CD00F5DD4E /* Shader.vsh */; };
+		193594741556D6CD00F5DD4E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 193594731556D6CD00F5DD4E /* ViewController.m */; };
+		1935947C1556D6CD00F5DD4E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1935947B1556D6CD00F5DD4E /* SenTestingKit.framework */; };
+		1935947D1556D6CD00F5DD4E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 193594521556D6CD00F5DD4E /* UIKit.framework */; };
+		1935947E1556D6CD00F5DD4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 193594541556D6CD00F5DD4E /* Foundation.framework */; };
+		193594861556D6CD00F5DD4E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 193594841556D6CD00F5DD4E /* InfoPlist.strings */; };
+		193594891556D6CD00F5DD4E /* Texas_Hold_emTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 193594881556D6CD00F5DD4E /* Texas_Hold_emTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1935947F1556D6CD00F5DD4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 193594451556D6CD00F5DD4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1935944D1556D6CD00F5DD4E;
+			remoteInfo = "Texas Hold'em";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1935944E1556D6CD00F5DD4E /* Texas Hold'em.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Texas Hold'em.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		193594521556D6CD00F5DD4E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		193594541556D6CD00F5DD4E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		193594561556D6CD00F5DD4E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		193594581556D6CD00F5DD4E /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		1935945A1556D6CD00F5DD4E /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		1935945E1556D6CD00F5DD4E /* Texas Hold'em-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Texas Hold'em-Info.plist"; sourceTree = "<group>"; };
+		193594601556D6CD00F5DD4E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		193594621556D6CD00F5DD4E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		193594641556D6CD00F5DD4E /* Texas Hold'em-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Texas Hold'em-Prefix.pch"; sourceTree = "<group>"; };
+		193594651556D6CD00F5DD4E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		193594661556D6CD00F5DD4E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		193594691556D6CD00F5DD4E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		1935946C1556D6CD00F5DD4E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		1935946E1556D6CD00F5DD4E /* Shader.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.fsh; path = Shaders/Shader.fsh; sourceTree = "<group>"; };
+		193594701556D6CD00F5DD4E /* Shader.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.vsh; path = Shaders/Shader.vsh; sourceTree = "<group>"; };
+		193594721556D6CD00F5DD4E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		193594731556D6CD00F5DD4E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1935947A1556D6CD00F5DD4E /* Texas Hold'emTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Texas Hold'emTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1935947B1556D6CD00F5DD4E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		193594831556D6CD00F5DD4E /* Texas Hold'emTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Texas Hold'emTests-Info.plist"; sourceTree = "<group>"; };
+		193594851556D6CD00F5DD4E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		193594871556D6CD00F5DD4E /* Texas_Hold_emTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Texas_Hold_emTests.h; sourceTree = "<group>"; };
+		193594881556D6CD00F5DD4E /* Texas_Hold_emTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Texas_Hold_emTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1935944B1556D6CD00F5DD4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				193594531556D6CD00F5DD4E /* UIKit.framework in Frameworks */,
+				193594551556D6CD00F5DD4E /* Foundation.framework in Frameworks */,
+				193594571556D6CD00F5DD4E /* CoreGraphics.framework in Frameworks */,
+				193594591556D6CD00F5DD4E /* GLKit.framework in Frameworks */,
+				1935945B1556D6CD00F5DD4E /* OpenGLES.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		193594761556D6CD00F5DD4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1935947C1556D6CD00F5DD4E /* SenTestingKit.framework in Frameworks */,
+				1935947D1556D6CD00F5DD4E /* UIKit.framework in Frameworks */,
+				1935947E1556D6CD00F5DD4E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		193594431556D6CD00F5DD4E = {
+			isa = PBXGroup;
+			children = (
+				1935945C1556D6CD00F5DD4E /* Texas Hold'em */,
+				193594811556D6CD00F5DD4E /* Texas Hold'emTests */,
+				193594511556D6CD00F5DD4E /* Frameworks */,
+				1935944F1556D6CD00F5DD4E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1935944F1556D6CD00F5DD4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1935944E1556D6CD00F5DD4E /* Texas Hold'em.app */,
+				1935947A1556D6CD00F5DD4E /* Texas Hold'emTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		193594511556D6CD00F5DD4E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				193594521556D6CD00F5DD4E /* UIKit.framework */,
+				193594541556D6CD00F5DD4E /* Foundation.framework */,
+				193594561556D6CD00F5DD4E /* CoreGraphics.framework */,
+				193594581556D6CD00F5DD4E /* GLKit.framework */,
+				1935945A1556D6CD00F5DD4E /* OpenGLES.framework */,
+				1935947B1556D6CD00F5DD4E /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1935945C1556D6CD00F5DD4E /* Texas Hold'em */ = {
+			isa = PBXGroup;
+			children = (
+				193594651556D6CD00F5DD4E /* AppDelegate.h */,
+				193594661556D6CD00F5DD4E /* AppDelegate.m */,
+				193594681556D6CD00F5DD4E /* MainStoryboard_iPhone.storyboard */,
+				1935946B1556D6CD00F5DD4E /* MainStoryboard_iPad.storyboard */,
+				1935946E1556D6CD00F5DD4E /* Shader.fsh */,
+				193594701556D6CD00F5DD4E /* Shader.vsh */,
+				193594721556D6CD00F5DD4E /* ViewController.h */,
+				193594731556D6CD00F5DD4E /* ViewController.m */,
+				1935945D1556D6CD00F5DD4E /* Supporting Files */,
+			);
+			path = "Texas Hold'em";
+			sourceTree = "<group>";
+		};
+		1935945D1556D6CD00F5DD4E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1935945E1556D6CD00F5DD4E /* Texas Hold'em-Info.plist */,
+				1935945F1556D6CD00F5DD4E /* InfoPlist.strings */,
+				193594621556D6CD00F5DD4E /* main.m */,
+				193594641556D6CD00F5DD4E /* Texas Hold'em-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		193594811556D6CD00F5DD4E /* Texas Hold'emTests */ = {
+			isa = PBXGroup;
+			children = (
+				193594871556D6CD00F5DD4E /* Texas_Hold_emTests.h */,
+				193594881556D6CD00F5DD4E /* Texas_Hold_emTests.m */,
+				193594821556D6CD00F5DD4E /* Supporting Files */,
+			);
+			path = "Texas Hold'emTests";
+			sourceTree = "<group>";
+		};
+		193594821556D6CD00F5DD4E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				193594831556D6CD00F5DD4E /* Texas Hold'emTests-Info.plist */,
+				193594841556D6CD00F5DD4E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1935944D1556D6CD00F5DD4E /* Texas Hold'em */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1935948C1556D6CD00F5DD4E /* Build configuration list for PBXNativeTarget "Texas Hold'em" */;
+			buildPhases = (
+				1935944A1556D6CD00F5DD4E /* Sources */,
+				1935944B1556D6CD00F5DD4E /* Frameworks */,
+				1935944C1556D6CD00F5DD4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Texas Hold'em";
+			productName = "Texas Hold'em";
+			productReference = 1935944E1556D6CD00F5DD4E /* Texas Hold'em.app */;
+			productType = "com.apple.product-type.application";
+		};
+		193594791556D6CD00F5DD4E /* Texas Hold'emTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1935948F1556D6CD00F5DD4E /* Build configuration list for PBXNativeTarget "Texas Hold'emTests" */;
+			buildPhases = (
+				193594751556D6CD00F5DD4E /* Sources */,
+				193594761556D6CD00F5DD4E /* Frameworks */,
+				193594771556D6CD00F5DD4E /* Resources */,
+				193594781556D6CD00F5DD4E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				193594801556D6CD00F5DD4E /* PBXTargetDependency */,
+			);
+			name = "Texas Hold'emTests";
+			productName = "Texas Hold'emTests";
+			productReference = 1935947A1556D6CD00F5DD4E /* Texas Hold'emTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		193594451556D6CD00F5DD4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+			};
+			buildConfigurationList = 193594481556D6CD00F5DD4E /* Build configuration list for PBXProject "Texas Hold'em" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 193594431556D6CD00F5DD4E;
+			productRefGroup = 1935944F1556D6CD00F5DD4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1935944D1556D6CD00F5DD4E /* Texas Hold'em */,
+				193594791556D6CD00F5DD4E /* Texas Hold'emTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1935944C1556D6CD00F5DD4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				193594611556D6CD00F5DD4E /* InfoPlist.strings in Resources */,
+				1935946A1556D6CD00F5DD4E /* MainStoryboard_iPhone.storyboard in Resources */,
+				1935946D1556D6CD00F5DD4E /* MainStoryboard_iPad.storyboard in Resources */,
+				1935946F1556D6CD00F5DD4E /* Shader.fsh in Resources */,
+				193594711556D6CD00F5DD4E /* Shader.vsh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		193594771556D6CD00F5DD4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				193594861556D6CD00F5DD4E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		193594781556D6CD00F5DD4E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1935944A1556D6CD00F5DD4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				193594631556D6CD00F5DD4E /* main.m in Sources */,
+				193594671556D6CD00F5DD4E /* AppDelegate.m in Sources */,
+				193594741556D6CD00F5DD4E /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		193594751556D6CD00F5DD4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				193594891556D6CD00F5DD4E /* Texas_Hold_emTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		193594801556D6CD00F5DD4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1935944D1556D6CD00F5DD4E /* Texas Hold'em */;
+			targetProxy = 1935947F1556D6CD00F5DD4E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1935945F1556D6CD00F5DD4E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				193594601556D6CD00F5DD4E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		193594681556D6CD00F5DD4E /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				193594691556D6CD00F5DD4E /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		1935946B1556D6CD00F5DD4E /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1935946C1556D6CD00F5DD4E /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		193594841556D6CD00F5DD4E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				193594851556D6CD00F5DD4E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1935948A1556D6CD00F5DD4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1935948B1556D6CD00F5DD4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1935948D1556D6CD00F5DD4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Texas Hold'em/Texas Hold'em-Prefix.pch";
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "Texas Hold'em/Texas Hold'em-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1935948E1556D6CD00F5DD4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Texas Hold'em/Texas Hold'em-Prefix.pch";
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "Texas Hold'em/Texas Hold'em-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		193594901556D6CD00F5DD4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Texas Hold'em.app/Texas Hold'em";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Texas Hold'em/Texas Hold'em-Prefix.pch";
+				INFOPLIST_FILE = "Texas Hold'emTests/Texas Hold'emTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		193594911556D6CD00F5DD4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Texas Hold'em.app/Texas Hold'em";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Texas Hold'em/Texas Hold'em-Prefix.pch";
+				INFOPLIST_FILE = "Texas Hold'emTests/Texas Hold'emTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		193594481556D6CD00F5DD4E /* Build configuration list for PBXProject "Texas Hold'em" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1935948A1556D6CD00F5DD4E /* Debug */,
+				1935948B1556D6CD00F5DD4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1935948C1556D6CD00F5DD4E /* Build configuration list for PBXNativeTarget "Texas Hold'em" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1935948D1556D6CD00F5DD4E /* Debug */,
+				1935948E1556D6CD00F5DD4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1935948F1556D6CD00F5DD4E /* Build configuration list for PBXNativeTarget "Texas Hold'emTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				193594901556D6CD00F5DD4E /* Debug */,
+				193594911556D6CD00F5DD4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 193594451556D6CD00F5DD4E /* Project object */;
+}
