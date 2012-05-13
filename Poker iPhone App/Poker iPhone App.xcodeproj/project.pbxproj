@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEEBF57215601A9F007313F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEEBF57115601A9F007313F1 /* UIKit.framework */; };
+		CEEBF57415601A9F007313F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEEBF57315601A9F007313F1 /* Foundation.framework */; };
+		CEEBF57615601A9F007313F1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEEBF57515601A9F007313F1 /* CoreGraphics.framework */; };
+		CEEBF57C15601A9F007313F1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEEBF57A15601A9F007313F1 /* InfoPlist.strings */; };
+		CEEBF57E15601A9F007313F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEBF57D15601A9F007313F1 /* main.m */; };
+		CEEBF58215601A9F007313F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEBF58115601A9F007313F1 /* AppDelegate.m */; };
+		CEEBF58515601A9F007313F1 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEEBF58315601A9F007313F1 /* MainStoryboard.storyboard */; };
+		CEEBF58815601A9F007313F1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEBF58715601A9F007313F1 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CEEBF56D15601A9F007313F1 /* Poker iPhone App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Poker iPhone App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEEBF57115601A9F007313F1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CEEBF57315601A9F007313F1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CEEBF57515601A9F007313F1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CEEBF57915601A9F007313F1 /* Poker iPhone App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Poker iPhone App-Info.plist"; sourceTree = "<group>"; };
+		CEEBF57B15601A9F007313F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CEEBF57D15601A9F007313F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEEBF57F15601A9F007313F1 /* Poker iPhone App-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Poker iPhone App-Prefix.pch"; sourceTree = "<group>"; };
+		CEEBF58015601A9F007313F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CEEBF58115601A9F007313F1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CEEBF58415601A9F007313F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		CEEBF58615601A9F007313F1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CEEBF58715601A9F007313F1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEEBF56A15601A9F007313F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEEBF57215601A9F007313F1 /* UIKit.framework in Frameworks */,
+				CEEBF57415601A9F007313F1 /* Foundation.framework in Frameworks */,
+				CEEBF57615601A9F007313F1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEEBF56215601A9F007313F1 = {
+			isa = PBXGroup;
+			children = (
+				CEEBF57715601A9F007313F1 /* Poker iPhone App */,
+				CEEBF57015601A9F007313F1 /* Frameworks */,
+				CEEBF56E15601A9F007313F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEEBF56E15601A9F007313F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEEBF56D15601A9F007313F1 /* Poker iPhone App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEEBF57015601A9F007313F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEEBF57115601A9F007313F1 /* UIKit.framework */,
+				CEEBF57315601A9F007313F1 /* Foundation.framework */,
+				CEEBF57515601A9F007313F1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEEBF57715601A9F007313F1 /* Poker iPhone App */ = {
+			isa = PBXGroup;
+			children = (
+				CEEBF58015601A9F007313F1 /* AppDelegate.h */,
+				CEEBF58115601A9F007313F1 /* AppDelegate.m */,
+				CEEBF58315601A9F007313F1 /* MainStoryboard.storyboard */,
+				CEEBF58615601A9F007313F1 /* ViewController.h */,
+				CEEBF58715601A9F007313F1 /* ViewController.m */,
+				CEEBF57815601A9F007313F1 /* Supporting Files */,
+			);
+			path = "Poker iPhone App";
+			sourceTree = "<group>";
+		};
+		CEEBF57815601A9F007313F1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEEBF57915601A9F007313F1 /* Poker iPhone App-Info.plist */,
+				CEEBF57A15601A9F007313F1 /* InfoPlist.strings */,
+				CEEBF57D15601A9F007313F1 /* main.m */,
+				CEEBF57F15601A9F007313F1 /* Poker iPhone App-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEEBF56C15601A9F007313F1 /* Poker iPhone App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEEBF58B15601A9F007313F1 /* Build configuration list for PBXNativeTarget "Poker iPhone App" */;
+			buildPhases = (
+				CEEBF56915601A9F007313F1 /* Sources */,
+				CEEBF56A15601A9F007313F1 /* Frameworks */,
+				CEEBF56B15601A9F007313F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Poker iPhone App";
+			productName = "Poker iPhone App";
+			productReference = CEEBF56D15601A9F007313F1 /* Poker iPhone App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEEBF56415601A9F007313F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = CEEBF56715601A9F007313F1 /* Build configuration list for PBXProject "Poker iPhone App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CEEBF56215601A9F007313F1;
+			productRefGroup = CEEBF56E15601A9F007313F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEEBF56C15601A9F007313F1 /* Poker iPhone App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEEBF56B15601A9F007313F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEEBF57C15601A9F007313F1 /* InfoPlist.strings in Resources */,
+				CEEBF58515601A9F007313F1 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEEBF56915601A9F007313F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEEBF57E15601A9F007313F1 /* main.m in Sources */,
+				CEEBF58215601A9F007313F1 /* AppDelegate.m in Sources */,
+				CEEBF58815601A9F007313F1 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CEEBF57A15601A9F007313F1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEEBF57B15601A9F007313F1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CEEBF58315601A9F007313F1 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEEBF58415601A9F007313F1 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEEBF58915601A9F007313F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CEEBF58A15601A9F007313F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEEBF58C15601A9F007313F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Poker iPhone App/Poker iPhone App-Prefix.pch";
+				INFOPLIST_FILE = "Poker iPhone App/Poker iPhone App-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CEEBF58D15601A9F007313F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Poker iPhone App/Poker iPhone App-Prefix.pch";
+				INFOPLIST_FILE = "Poker iPhone App/Poker iPhone App-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEEBF56715601A9F007313F1 /* Build configuration list for PBXProject "Poker iPhone App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEEBF58915601A9F007313F1 /* Debug */,
+				CEEBF58A15601A9F007313F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEEBF58B15601A9F007313F1 /* Build configuration list for PBXNativeTarget "Poker iPhone App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEEBF58C15601A9F007313F1 /* Debug */,
+				CEEBF58D15601A9F007313F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEEBF56415601A9F007313F1 /* Project object */;
+}
